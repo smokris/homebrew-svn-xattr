@@ -5,7 +5,6 @@ class SvnXattr < Formula
   sha256 "6bcfaafabf84f134fa24987dc9c563d37f468f0f92241065120e1cf3a8490eda"
 
   def install
-    system "make"
     bin.install "svn-xattr"
   end
 
